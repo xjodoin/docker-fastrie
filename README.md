@@ -11,4 +11,4 @@ docker run -d -name docker-fastrie arbedout/docker-fastrie /bin/bash
 -c "/usr/src/fastrie/xptMiner/xptminer -u username.riecoinworkername -p workerpassword"
 </pre>
 
-and file an issue if you have any difficulties. Enjoy!
+and file an issue if you have any difficulties. Note that we're using our own repository for the fastrie minor as we needed to modify the Makefile to avoid illegal instruction errors on compilation.
